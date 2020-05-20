@@ -7,13 +7,67 @@
     tools:context=".Main2Activity">
 
     <TextView
-        android:id="@+id/texteMenu"
-        android:layout_width="154dp"
-        android:layout_height="75dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="240dp"
+        android:id="@+id/texteProposer"
+        android:layout_width="231dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="124dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textePieton"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="332dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bouttonOffre"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="168dp"
+        android:text="Button"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bouttonPieton"
+        android:layout_width="261dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="388dp"
+        android:text="Button"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bouttonDeconnecter"
+        android:layout_width="217dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="141dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
